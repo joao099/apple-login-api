@@ -1,0 +1,23 @@
+{
+  "name": "apple-login-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "node-rsa": "^1.1.1",
+    "nodemon": "^2.0.12"
+  },
+  "engines": {
+    "node": "14.17.5"
+  }
+}
